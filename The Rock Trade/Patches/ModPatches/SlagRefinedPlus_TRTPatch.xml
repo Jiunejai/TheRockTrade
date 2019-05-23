@@ -86,7 +86,7 @@
 
                         <RecipeDef ParentName="DeconstructChunkCrateBase">
                             <defName>Make_CrateSterileSlag</defName>
-                            <label>pack sterile slag crate</label>
+                            <label>pack a sterile slag crate</label>
                             <description>packs a crate full of sterile slag debris.</description>
                             <jobString>packing a crate.</jobString>
                             <ingredients>
@@ -114,6 +114,61 @@
                             </fixedIngredientFilter>
                             <products>
                                 <SterileSlagCrate>1</SterileSlagCrate>
+                            </products>
+                        </RecipeDef>
+                
+                        <ThingDef ParentName="SlagBoxBase"> 
+                            <defName>SterileSlagBox</defName>
+                            <label>sterile scrap box</label>
+                            <graphicData>
+                                <color>(255,255,255)</color>
+                            </graphicData>
+                            <statBases>
+                                <MarketValue>342.4</MarketValue>
+                                <SellPriceFactor>0.85</SellPriceFactor>
+                                <Mass>15</Mass>
+                            </statBases>
+                            <butcherProducts>
+                                <ChunkSlagSterile>6</ChunkSlagSterile>
+                                <Steel>5</Steel>
+                            </butcherProducts>
+                            <smeltProducts>
+                                <Steel>95</Steel>
+                                <Silver>360</Silver>
+                                <ComponentIndustrial>6</ComponentIndustrial>
+                            </smeltProducts>
+                        </ThingDef>
+
+                        <RecipeDef ParentName="DeconstructChunkCrateBase">
+                            <defName>Make_BoxSterileSlag</defName>
+                            <label>Weld together a sterile slag box</label>
+                            <description>packs a box full of sterile slag debris.</description>
+                            <jobString>packing a box.</jobString>
+                            <ingredients>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>ChunkSlagSterile</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>6</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>Steel</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>5</count>
+                                </li>
+                            </ingredients>
+                            <fixedIngredientFilter>
+                                <thingDefs>
+                                    <li>ChunkSlagSterile</li>
+                                </thingDefs>
+                            </fixedIngredientFilter>
+                            <products>
+                                <SterileSlagBox>1</SterileSlagBox>
                             </products>
                         </RecipeDef>
     
@@ -145,7 +200,7 @@
 
                         <RecipeDef ParentName="DeconstructChunkCrateBase">
                             <defName>Make_CrateGoldSlag</defName>
-                            <label>pack gold slag crate</label>
+                            <label>pack a gold slag crate</label>
                             <description>packs a crate full of gold slag debris.</description>
                             <jobString>packing a crate.</jobString>
                             <ingredients>
@@ -173,6 +228,61 @@
                             </fixedIngredientFilter>
                             <products>
                                 <GoldSlagCrate>1</GoldSlagCrate>
+                            </products>
+                        </RecipeDef>
+  
+                        <ThingDef ParentName="SlagCrateBase"> 
+                            <defName>GoldSlagBox</defName>
+                            <label>gold scrap box</label>
+                            <graphicData>
+                                <color>(224,190,36)</color>
+                            </graphicData>
+                            <statBases>
+                                <MarketValue>2172</MarketValue>
+                                <SellPriceFactor>0.85</SellPriceFactor>
+                                <Mass>15</Mass>
+                            </statBases>
+                            <butcherProducts>
+                                <ChunkSlagGold>6</ChunkSlagGold>
+                                <Steel>5</Steel>
+                            </butcherProducts>
+                            <smeltProducts>
+                                <Gold>360</Gold>
+                                <Steel>95</Steel>
+                                <ComponentIndustrial>6</ComponentIndustrial>
+                            </smeltProducts>
+                        </ThingDef>
+
+                        <RecipeDef ParentName="DeconstructChunkCrateBase">
+                            <defName>Make_BoxGoldSlag</defName>
+                            <label>Weld together a gold slag box</label>
+                            <description>packs a box full of gold slag debris.</description>
+                            <jobString>packing a box.</jobString>
+                            <ingredients>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>ChunkSlagGold</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>6</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>Steel</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>5</count>
+                                </li>
+                            </ingredients>
+                            <fixedIngredientFilter>
+                                <thingDefs>
+                                    <li>ChunkSlagGold</li>
+                                </thingDefs>
+                            </fixedIngredientFilter>
+                            <products>
+                                <GoldSlagBox>1</GoldSlagBox>
                             </products>
                         </RecipeDef>
     
@@ -203,7 +313,7 @@
 
                         <RecipeDef ParentName="DeconstructChunkCrateBase">
                             <defName>Make_CratePlasteelSlag</defName>
-                            <label>pack plasteel slag crate</label>
+                            <label>pack a plasteel slag crate</label>
                             <description>packs a crate full of plasteel slag debris.</description>
                             <jobString>packing a crate.</jobString>
                             <ingredients>
@@ -231,6 +341,61 @@
                             </fixedIngredientFilter>
                             <products>
                                 <PlasteelSlagCrate>1</PlasteelSlagCrate>
+                            </products>
+                        </RecipeDef>
+
+                        <ThingDef ParentName="SlagBoxBase"> 
+                            <defName>PlasteelSlagBox</defName>
+                            <label>plasteel scrap box</label>
+                            <graphicData>
+                                <color>(132,169,170)</color>
+                            </graphicData>
+                            <statBases>
+                                <MarketValue>859</MarketValue>
+                                <SellPriceFactor>0.85</SellPriceFactor>
+                                <Mass>15</Mass>
+                            </statBases>
+                            <butcherProducts>
+                                <ChunkSlagPlasteel>6</ChunkSlagPlasteel>
+                                <Steel>5</Steel>
+                            </butcherProducts>
+                            <smeltProducts>
+                                <Plasteel>180</Plasteel>
+                                <ComponentIndustrial>6</ComponentIndustrial>
+                                <Steel>5</Steel>
+                            </smeltProducts>
+                        </ThingDef>
+
+                        <RecipeDef ParentName="DeconstructChunkCrateBase">
+                            <defName>Make_BoxPlasteelSlag</defName>
+                            <label>Weld together a plasteel slag box</label>
+                            <description>packs a box full of plasteel slag debris.</description>
+                            <jobString>packing a box.</jobString>
+                            <ingredients>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>ChunkSlagPlasteel</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>6</count>
+                                </li>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>Steel</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>5</count>
+                                </li>
+                            </ingredients>
+                            <fixedIngredientFilter>
+                                <thingDefs>
+                                    <li>ChunkSlagPlasteel</li>
+                                </thingDefs>
+                            </fixedIngredientFilter>
+                            <products>
+                                <PlasteelSlagBox>1</PlasteelSlagBox>
                             </products>
                         </RecipeDef>
                         
