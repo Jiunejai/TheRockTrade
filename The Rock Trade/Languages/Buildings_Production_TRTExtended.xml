@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-
-	<!--=============== Packing Spot ====================-->
-		<TRTCratingSpot.label>裝箱工作站</TRTCratingSpot.label>
-		<TRTCratingSpot.description>一個被設計用來將大型重物（例如石塊或金屬碎片）裝箱的工作站。</TRTCratingSpot.description>
-
-    <!-- === Translation for 'The Rock Trade' by Jiune. Cheers mate! === -->
-</LanguageData>
