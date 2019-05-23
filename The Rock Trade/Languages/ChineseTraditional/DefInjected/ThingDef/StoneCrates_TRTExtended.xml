@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!--=============== Base ====================-->
+
+  <!--=============== Slag ====================-->
+     
+     <SlagCrate.label>金屬碎片集裝箱（木箱）</SlagCrate.label>
+	 
+	 <Make_CrateSlag.label>金屬碎片裝箱（木箱）</Make_CrateSlag.label>
+	 <Make_CrateSlag.description>將一個木製集裝箱裝滿金屬碎片。</Make_CrateSlag.description>
+	 <Make_CrateSlag.jobString>裝箱中。</Make_CrateSlag.jobString>
+	 
+	 <SlagBox.label>金屬碎片集裝箱（鐵箱）</SlagBox.label>
+	 
+	 <Make_BoxSlag.label>金屬碎片裝箱（鐵箱）</Make_BoxSlag.label>
+	 <Make_BoxSlag.description>將一個鐵製集裝箱裝滿金屬碎片。</Make_BoxSlag.description>
+	 <Make_BoxSlag.jobString>裝箱中。</Make_BoxSlag.jobString>
+	 
+  <!--=============== Sandstone Stone Chunks ====================-->
+     
+     <SandstoneChunkCrate.label>砂岩塊集裝箱（木箱）</SandstoneChunkCrate.label>
+	 
+	 <Make_CrateSandstone.label>砂岩塊裝箱（木箱）</Make_CrateSandstone.label>
+	 <Make_CrateSandstone.description>將一個木製集裝箱裝滿砂岩塊。</Make_CrateSandstone.description>
+	 <Make_CrateSandstone.jobString>裝箱中。</Make_CrateSandstone.jobString>
+	 
+	 <SandstoneChunkBox.label>砂岩塊集裝箱（鐵箱）</SandstoneChunkBox.label>
+	 
+	 <Make_BoxSandstone.label>砂岩塊裝箱（鐵箱）</Make_BoxSandstone.label>
+	 <Make_BoxSandstone.description>將一個鐵製集裝箱裝滿砂岩塊。</Make_BoxSandstone.description>
+	 <Make_BoxSandstone.jobString>裝箱中。</Make_BoxSandstone.jobString>
+	 
+  <!--=============== Limestone Stone Chunks ====================-->
+     
+     <LimestoneChunkCrate.label>石灰岩塊集裝箱（木箱）</LimestoneChunkCrate.label>
+	 
+	 <Make_CrateLimestone.label>石灰岩塊裝箱（木箱）</Make_CrateLimestone.label>
+	 <Make_CrateLimestone.description>將一個木製集裝箱裝滿石灰岩塊。</Make_CrateLimestone.description>
+	 <Make_CrateLimestone.jobString>裝箱中。</Make_CrateLimestone.jobString>
+	 
+	 <LimestoneChunkBox.label>石灰岩塊集裝箱（鐵箱）</LimestoneChunkBox.label>
+	 
+	 <Make_BoxLimestone.label>石灰岩塊裝箱（鐵箱）</Make_BoxLimestone.label>
+	 <Make_BoxLimestone.description>將一個鐵製集裝箱裝滿石灰岩塊。</Make_BoxLimestone.description>
+	 <Make_BoxLimestone.jobString>裝箱中。</Make_BoxLimestone.jobString>
+	 
+  <!--=============== Granite Stone Chunks ====================-->
+     
+     <GraniteChunkCrate.label>花崗岩塊集裝箱（木箱）</GraniteChunkCrate.label>
+	 
+	 <Make_CrateGranite.label>花崗岩塊裝箱（木箱）</Make_CrateGranite.label>
+	 <Make_CrateGranite.description>將一個木製集裝箱裝滿花崗岩塊。</Make_CrateGranite.description>
+	 <Make_CrateGranite.jobString>裝箱中。</Make_CrateGranite.jobString>
+	 
+	 <GraniteChunkBox.label>花崗岩塊集裝箱（鐵箱）</GraniteChunkBox.label>
+	 
+	 <Make_BoxGranite.label>花崗岩塊裝箱（鐵箱）</Make_BoxGranite.label>
+	 <Make_BoxGranite.description>將一個鐵製集裝箱裝滿花崗岩塊。</Make_BoxGranite.description>
+	 <Make_BoxGranite.jobString>裝箱中。</Make_BoxGranite.jobString>
+	 
+  <!--=============== Slate Stone Chunks ====================-->
+     
+     <SlateChunkCrate.label>板岩塊集裝箱（木箱）</SlateChunkCrate.label>
+	 
+	 <Make_CrateSlate.label>板岩塊裝箱（木箱）</Make_CrateSlate.label>
+	 <Make_CrateSlate.description>將一個木製集裝箱裝滿板岩塊。</Make_CrateSlate.description>
+	 <Make_CrateSlate.jobString>裝箱中。</Make_CrateSlate.jobString>
+	 
+	 <SlateChunkBox.label>板岩塊集裝箱（鐵箱）</SlateChunkBox.label>
+	 
+	 <Make_BoxSlate.label>板岩塊裝箱（鐵箱）</Make_BoxSlate.label>
+	 <Make_BoxSlate.description>將一個鐵製集裝箱裝滿板岩塊。</Make_BoxSlate.description>
+	 <Make_BoxSlate.jobString>裝箱中。</Make_BoxSlate.jobString>
+	 
+  <!--=============== Marble Stone Chunks ====================-->
+     
+     <MarbleChunkCrate.label>大理石塊集裝箱（木箱）</MarbleChunkCrate.label>
+	 
+	 <Make_CrateMarble.label>大理石塊裝箱（木箱）</Make_CrateMarble.label>
+	 <Make_CrateMarble.description>將一個木製集裝箱裝滿大理石塊。</Make_CrateMarble.description>
+	 <Make_CrateMarble.jobString>裝箱中。</Make_CrateMarble.jobString>
+	 
+	 <MarbleChunkBox.label>大理石塊集裝箱（鐵箱）</MarbleChunkBox.label>
+	 
+	 <Make_BoxMarble.label>大理石塊裝箱（鐵箱）</Make_BoxMarble.label>
+	 <Make_BoxMarble.description>將一個鐵製集裝箱裝滿大理石塊。</Make_BoxMarble.description>
+	 <Make_BoxMarble.jobString>裝箱中。</Make_BoxMarble.jobString>
+	 
+    <!-- === Translation for 'The Rock Trade' by Jiune. Cheers mate! === -->
+	
+</LanguageData>
