@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+     
+	 <Deconstruct_ChunkCrateAny.label>拆解石塊集裝箱</Deconstruct_ChunkCrateAny.label>
+	 <Deconstruct_ChunkCrateAny.jobString>正在拆解集裝箱並取出石塊</Deconstruct_ChunkCrateAny.jobString>
+	 <Deconstruct_ChunkCrateAny.description>拆解任何一種裝著石塊的集裝箱</Deconstruct_ChunkCrateAny.description>
+	 
+	 <Deconstruct_SlagCrateAny.label>拆解金屬碎片集裝箱</Deconstruct_SlagCrateAny.label>
+	 <Deconstruct_SlagCrateAny.jobString>正在拆解集裝箱並取出金屬碎片</Deconstruct_SlagCrateAny.jobString>
+	 <Deconstruct_SlagCrateAny.description>拆解任何一種裝著金屬碎片的集裝箱</Deconstruct_SlagCrateAny.description>
+	 
+	 <Craftstoneblocks_ChunkCrateAny.label>切割集裝箱裡的石塊</Craftstoneblocks_ChunkCrateAny.label>
+	 <Craftstoneblocks_ChunkCrateAny.jobString>正在切割一些石材</Craftstoneblocks_ChunkCrateAny.jobString>
+	 <Craftstoneblocks_ChunkCrateAny.description>從任何一種石塊集裝箱中取出石頭並進行切割。</Craftstoneblocks_ChunkCrateAny.description>
+	 
+	 <Smeltmetal_ChunkCrateAny.label>提煉集裝箱裡的金屬碎片</Smeltmetal_ChunkCrateAny.label>
+	 <Smeltmetal_ChunkCrateAny.jobString>正在提煉一些金屬碎片</Smeltmetal_ChunkCrateAny.jobString>
+	 <Smeltmetal_ChunkCrateAny.description>從任何一種金屬碎片集裝箱中取出金屬碎片並進行提煉。</Smeltmetal_ChunkCrateAny.description>
+	 
+    <!-- === Translation for 'The Rock Trade' by Jiune. Cheers mate! === -->
+</LanguageData>

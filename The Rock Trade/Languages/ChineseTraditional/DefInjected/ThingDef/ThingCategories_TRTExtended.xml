@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- ========== Chunk Category Defs ========== -->
+	<TRTChunks.label>石塊集裝箱</TRTChunks.label>
+	 
+	<TRTChunky.label>石材</TRTChunky.label>
+	 
+	<TRTSlag.label>金屬碎片集裝箱</TRTSlag.label>
+	 
+	<TRTSlaggy.label>金屬材料</TRTSlaggy.label>
+	 
+	<!-- === Translation for 'The Rock Trade' by Jiune. Cheers mate! === -->
+</Defs>

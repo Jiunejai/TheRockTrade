@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!--=============== Base ====================-->
@@ -7,15 +7,16 @@
      
      <SlagCrate.label>金屬碎片集裝箱（木箱）</SlagCrate.label>
 	 
-	 <Make_CrateSlag.label>金屬碎片裝箱（木箱）</Make_CrateSlag.label>
+     <Make_CrateSlag.label>打包金屬碎片裝箱（木箱）</Make_CrateSlag.label>
 	 <Make_CrateSlag.description>將一個木製集裝箱裝滿金屬碎片。</Make_CrateSlag.description>
 	 <Make_CrateSlag.jobString>裝箱中。</Make_CrateSlag.jobString>
 	 
 	 <SlagBox.label>金屬碎片集裝箱（鐵箱）</SlagBox.label>
 	 
 	 <Make_BoxSlag.label>金屬碎片裝箱（鐵箱）</Make_BoxSlag.label>
-	 <Make_BoxSlag.description>將一個鐵製集裝箱裝滿金屬碎片。</Make_BoxSlag.description>
 	 <Make_BoxSlag.jobString>裝箱中。</Make_BoxSlag.jobString>
+	 <Make_BoxSlag.description>將一個鐵製集裝箱裝滿金屬碎片。</Make_BoxSlag.description>
+
 	 
   <!--=============== Sandstone Stone Chunks ====================-->
      
