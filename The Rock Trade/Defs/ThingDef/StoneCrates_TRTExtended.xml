@@ -609,7 +609,7 @@
 
     <RecipeDef ParentName="DeconstructChunkCrateBase">
         <defName>Make_BoxSlate</defName>
-        <label>>Weld together a slate box</label>
+        <label>Weld together a slate box</label>
         <description>packs a box full of slate chunks.</description>
 		<jobString>packing a box.</jobString>
         <ingredients>
